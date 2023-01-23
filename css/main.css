@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+header {
+  background-color: rgb(73, 56, 119);
+}
+
+header .container {
+  padding: 16px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr auto;
+  color: rgb(214, 213, 213);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li + li {
+  margin-left: 20px;
+}
+
+nav li a {
+  padding: 10px;
+  background-color: rgb(214, 213, 213);
+  color: rgb(73, 56, 119);
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+/* MAIN  */
+
+.main .container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.info-main h2 {
+  color: rgb(73, 56, 119);
+  border-bottom: 1px solid rgb(73, 56, 119);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.produtos .container h2 {
+  border-bottom: 1px solid rgb(73, 56, 119);
+  color: rgb(73, 56, 119);
+  font-style: italic;
+  margin: 0 16px;
+  padding-bottom: 10px;
+}
+
+
+/* PRODUTOS */
+
+.produtos .grid {
+  display: grid;
+  padding: 16px;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.tenis h3 {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  margin-top: 15px;
+}
+.tenis p {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+.tenis a {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(126, 94, 216);
+  color: #fff;
+}

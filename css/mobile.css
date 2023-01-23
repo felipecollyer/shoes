@@ -1,0 +1,38 @@
+@media (max-width: 1023px) {
+  /* main */
+  .main .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+  }
+
+  /* produtos */
+  .produtos .grid {
+    display: grid;
+    padding: 0 16px;
+    gap: 150px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .produtos .grid {
+    display: grid;
+    padding: 0 16px;
+    grid-template-columns: auto;
+  }
+
+  header .container {
+    padding: 16px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto;
+    color: rgb(214, 213, 213);
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+  }
+}
